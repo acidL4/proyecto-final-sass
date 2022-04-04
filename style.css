@@ -23,9 +23,9 @@ body{
     width: 100%;
 }
 .header_list{
-    width: 35%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     font-size: x-large;
     list-style: none;
     padding-right: 5%;
@@ -41,7 +41,7 @@ body{
 }
 
 .boton_prueba {
-    width: 140px;
+    width: 120px;
     height: 45px;
     font-size: 23px;
     cursor: pointer;
@@ -91,6 +91,7 @@ body{
 .link_logo{
     display: flex;
     justify-content: center;
+    
 }
 .logo{
     width: 40%;
@@ -107,6 +108,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
+    
     
 }
 .footer_list{
@@ -137,6 +139,7 @@ footer{
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    margin: 0 10px 0 10px;
 }
 .main_mid{
     width: 20%;
@@ -165,6 +168,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-right: 10px;
     
 }
 .main_right{
@@ -172,14 +176,16 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-left: 10px;
     
     
 }
 .main_img{ /*Aqui creo que iria una configuracion para hacerlo responsivo, y que cuando se achique el ancho de la pagina las fotos se pongan tipo columna*/
-    width: 40%;
-    
+   
     padding: 10px;
-
+    
+    min-width: 40%;
+    max-width: 100%;
 }
 /*Fin Main*/
 
@@ -678,8 +684,6 @@ fieldset label {
 .parent{
     display: grid;
     width: 90%;
-    
-
     grid-template-columns: 1fr 1fr .5fr ;
     grid-template-rows: 1fr 1fr 1fr ;
     gap: 15px;
