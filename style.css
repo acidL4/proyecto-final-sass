@@ -792,7 +792,7 @@ fieldset label {
 }
 
 
-.carousel-item img {
+.carousel-item img { /*Se agrega para arreglar height imgs carousel*/
     object-fit: cover;
     object-position: center;
     height: 50vh;
