@@ -661,6 +661,14 @@ fieldset label {
 .store-link{
     color: grey;
     text-decoration: none;
+    
+}
+
+.store-link:hover{
+    color: mediumpurple;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .store-p{
