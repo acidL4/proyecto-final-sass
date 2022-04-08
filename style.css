@@ -695,7 +695,7 @@ fieldset label {
 
 .aside_store{
     grid-area: aside;
-    background-color: mediumaquamarine;
+    background-color: grey;
     font-family: 'Bebas Neue', cursive;
     display: flex;
     flex-direction: column;
@@ -786,3 +786,4 @@ fieldset label {
     height: 50vh;
     overflow: hidden;
   }
+
