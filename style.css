@@ -197,7 +197,7 @@ footer{
     justify-content: center;
     margin: 50px 50px;
     font-family: 'Bebas Neue', cursive;
-    font-weight: bolder;
+    font-weight:bolder;
     font-size: xx-large;
     background-color: aliceblue;
     
@@ -214,6 +214,9 @@ footer{
     padding-right: 50px
     
 }
+.w-45{
+    width: 45%;
+}
 .info_artists{
     padding-bottom: 20px;
 }
@@ -228,11 +231,16 @@ footer{
     
 }
 
+.mote{
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
 .artist1{
     margin-left: 25px;
     display: flex;
     justify-content: center;
-    width: 65%;
+    width: 100%;
     padding: 0 0 50px 25px;
     
     
