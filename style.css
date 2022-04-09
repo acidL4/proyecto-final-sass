@@ -372,6 +372,7 @@ button {
 .list_img{
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 }
 
 
@@ -458,27 +459,40 @@ button {
 .img_section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 10px;
-    width: 40%;
+    width: 100%;
     align-items: center;
+    justify-items: center;
     
     
 }
 .img{
     display: flex;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .img_section div {
     flex: 1 1 200px;
+    
 }
 .col{
     margin-bottom: 10px;
+    align-items: center;
 }
 
+.row{
+    width: 100%;
+}
 
+.barber-img{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
 
+}
 
 .contact_header{
     display: flex;
