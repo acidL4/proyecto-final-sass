@@ -796,3 +796,13 @@ fieldset label {
     overflow: hidden;
   }
 
+
+
+.book-boton:link{
+    text-decoration: none;
+}
+
+.book-boton:visited{
+    text-decoration: none;
+    color: aliceblue;
+}
