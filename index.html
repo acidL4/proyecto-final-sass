@@ -13,35 +13,47 @@
     <title>Bydgoszcz | Barber & Tattoo</title>
 </head>
 <body>
-<!--Header-->    
-<nav class="header">
-
-  <a class= 'link_logo'href="index.html"><img class='logo'src="/images/Sun-Gold-Tattoo-Barber.png" alt=""></a>
-
-  <ul class="header_list">
-      <li class="list_item"><button class="boton_prueba"><a class="link" href="index.html">Home</a></button></li>
-      <li class="list_item"><button class="boton_prueba"><a class="link" href="barber.html">Barber</a></button></li>
-      <li class="list_item">
-          <div class="dropdown">
+    <!--NavBar-->
+    <nav class="header navbar navbar-dark navbar-expand-sm d-flex ">
+      <div class="container-fluid d-flex justify-content-between">
+          <a class= 'navbar-brand link_logo'href="index.html"><img class='logo'src="/images/Sun-Gold-Tattoo-Barber.png" alt=""></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav header_list">
+            <li class="nav-item list_item">
+              <button class="boton_prueba"><a class="link" href="index.html">Home</a></button>
+            </li>
+            <li class="nav-item list_item">
+              <button class="boton_prueba"><a class="link" href="barber.html">Barber</a></button>
+            </li>
+            <li class="nav-item list_item dropdown">
               <button class="btn btn-secondary dropdown-toggle boton_prueba" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Tattoo
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                
-                <li><a class="dropdown-item" href="tattoo.html">Our Studio</a></li>
-                <li><a class="dropdown-item" href="tattoo1.html">Brandon Carnagli</a></li>
-                <li><a class="dropdown-item" href="tattoo2.html">Camila Moreno</a></li>
-                <li><a class="dropdown-item" href="tattoo3.html">Toto Sanz</a></li>
-                <li><a class="dropdown-item" href="tattoo4.html">Milena Digregorio</a></li>
-                
+                  Tattoo
+                </button>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tattoo.html">Our Studio</a></li>
+                  <li><a class="dropdown-item" href="tattoo1.html">Brandon Carnagli</a></li>
+                  <li><a class="dropdown-item" href="tattoo2.html">Camila Moreno</a></li>
+                  <li><a class="dropdown-item" href="tattoo3.html">Toto Sanz</a></li>
+                  <li><a class="dropdown-item" href="tattoo4.html">Milena Digregorio</a></li>
               </ul>
-            </div>
-      </li>
-      <li class="list_item"><button class="boton_prueba"><a class="link" href="store.html">Store</a></button></li>
-      <li class="list_item"><button class="boton_prueba"><a class="link" href="contact.html">Contact</a></button></li>
-  </ul>
-</nav>
-<!--Fin Header-->
+            </li>
+            <li class="nav-item list_item">
+              <button class="boton_prueba"><a class="link" href="store.html">Store</a></button>
+            </li>
+            <li class="nav-item list_item">
+              <button class="boton_prueba"><a class="link" href="contact.html">Contact</a></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>      
+    
+  
+  <!--fin navbar-->
 
 <!--Banner Carrusel-->
 <div id="carouselExampleFade" class="carousel slide carousel-fade my-5" data-bs-ride="carousel">
