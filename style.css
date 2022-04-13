@@ -456,7 +456,7 @@ button {
     font-size: 50px;
     background-color: aliceblue;
     width: 100%;
-    margin-bottom: 15px;
+    
 
 }
 
@@ -495,6 +495,7 @@ button {
 
 .row{
     width: 100%;
+    margin: 0;
 }
 
 .barber-img{
@@ -805,4 +806,34 @@ fieldset label {
 .book-boton:visited{
     text-decoration: none;
     color: aliceblue;
+}
+
+
+
+@media screen and (min-width: 419px) and (max-width: 968px){
+    .barber_prueba{
+        display: flex;
+        flex-direction: column;
+    }
+    .list_prices {
+        width: 100%;
+        margin: 0 0 4rem 0;
+    }
+    .barber-img{
+        width: 100%;
+        display: none;
+    }
+    .carrusel{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 969px) {
+
+    .carrusel{
+        display: none;
+    }
+
 }
