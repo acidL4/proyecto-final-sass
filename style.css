@@ -814,7 +814,7 @@ fieldset label {
 
 /*@media tablet*/
 
-@media screen and (min-width: 419px) and (max-width: 968px){
+@media screen and (max-width: 968px){
     .barber_prueba{
         display: flex;
         flex-direction: column;
