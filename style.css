@@ -214,7 +214,7 @@ footer{
     display: flex;
     justify-content: center;   
     max-width: max-content;
-    padding-right: 50px
+    
     
 }
 .w-45{
@@ -849,6 +849,9 @@ fieldset label {
     }
     .width-100{
         width: 100%;
+    }
+    .media-hide{
+        display: none;
     }
 
 }
