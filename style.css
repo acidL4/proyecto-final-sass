@@ -843,7 +843,12 @@ fieldset label {
     .media-width100{
         width: 100%;
     }
-
+    .form-prueba{
+        width: 90%;
+    }
+    .mapa-prueba{
+        width: 90%;
+    }
 
 }
 
