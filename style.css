@@ -96,7 +96,7 @@ body{
 }
 .logo{
     width: 40%;
-    padding-left: 5%;
+
 }
 /*CSS Header Fin*/
 
@@ -491,7 +491,7 @@ button {
 .img{
     display: flex;
     width: 100%;
-    padding: 30px;
+    padding: 15px;
 }
 
 .img_section div {
@@ -868,7 +868,7 @@ fieldset label {
     }
     .video{
         margin-top: 3rem;
-        margin-bottom: 3rem;
+        
     }
 
 }
