@@ -870,7 +870,13 @@ fieldset label {
         margin-top: 3rem;
         
     }
-
+    .media-footer{
+        display: flex;
+        
+    }
+    .media-copy{
+        display: none;
+    }
 }
 
 @media  screen and (orientation: landscape) and (max-width: 968px)  {
