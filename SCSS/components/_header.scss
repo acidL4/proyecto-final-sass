@@ -1,0 +1,43 @@
+header{
+    background-color: #AAA0A0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .link_logo{
+        display: flex;
+        justify-content: center;
+        .logo{
+            width: 40%;
+        }
+    }
+    ul{
+        .list_item{
+            display: flex;
+            font-weight: 700;
+            font-size: 23px;
+            font-family: 'Bebas Neue', cursive;
+            
+            .link{
+                text-decoration: none;
+                color: black;
+            }
+            .boton_prueba{
+                width: 120px;
+                height: 45px;
+                font-size: 23px;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                background: transparent;
+                color: black;
+                font-family: 'Bebas Neue', cursive;
+                font-weight: 700;
+                position: relative;
+                transition: all 0.5s;
+                z-index: 1;
+            }
+    }
+    }
+
+}
