@@ -91,11 +91,26 @@ footer .logo_footer {
   font-family: "Bebas Neue", cursive;
   text-align: center;
   font-size: 4rem;
-  margin: 0 352.5px 1rem 352.5px;
 }
 
 /*Font size*/
 /*Colors*/
+.form-section {
+  color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bolder;
+}
+.form-section .div-1 {
+  width: 45%;
+}
+.form-section h2, .form-section .h2 {
+  color: black;
+  background-color: aliceblue;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
