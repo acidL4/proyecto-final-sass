@@ -1,5 +1,8 @@
+@import '../base/variables';
+
+
 header{
-    background-color: #AAA0A0;
+    background-color: $nav-bg;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -16,11 +19,11 @@ header{
             display: flex;
             font-weight: 700;
             font-size: 23px;
-            font-family: 'Bebas Neue', cursive;
+            font-family: $title-font;
             
             .link{
                 text-decoration: none;
-                color: black;
+                color: $title-color;
             }
             .boton_prueba{
                 width: 120px;

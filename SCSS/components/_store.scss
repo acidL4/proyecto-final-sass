@@ -3,29 +3,29 @@
     padding: 0;
 
     .title{
-        background-color: aliceblue;
-        color: black;
-        font-family: 'Bebas Neue', cursive;
+        background-color: $title-bg;
+        color: $title-color;
+        font-family: $title-font;
         text-align: center;
-        font-size: 4rem;
+        font-size: $title-size;
         margin-bottom: 1rem;
     }
     .paragraph{
-        color: aliceblue;
-        font-family: 'Inconsolata', monospace;
-        font-size: large;
+        color: $paragraph-color;
+        font-family: $paragraph-font;
+        font-size: $paragraph-size;
         text-align: justify;    
-        font-weight: bolder; 
+         
     }
 }
 
 
 .title-1{
-        background-color: aliceblue;
-        color: black;
-        font-family: 'Bebas Neue', cursive;
+        background-color: $title-bg;
+        color: $title-color;
+        font-family: $title-font;
         text-align: center;
-        font-size: 4rem;
+        font-size: $title-size;
         
         
   

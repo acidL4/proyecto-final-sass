@@ -1,6 +1,10 @@
+@import "../base/variables";
+
+
+
 .form-section{
-    color: aliceblue;
-    font-family: 'Bebas Neue', cursive;
+    color: $title-bg;
+    font-family: $title-font;
     font-weight: bolder;
     
         .div-1{
@@ -8,11 +12,11 @@
 
         }
             h2{
-                color: black;
-                background-color: aliceblue;
+                color: $title-color;
+                background-color: $title-bg;
                 text-align: center;
-                font-family: 'Bebas Neue', cursive;
-                font-size: 3rem;
+                font-family: $title-font;
+                font-size: $title-size;
 
             }
         }
