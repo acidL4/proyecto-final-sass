@@ -1,0 +1,41 @@
+
+
+.carousel-item img { /*Se agrega para arreglar height imgs carousel*/
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+  }
+
+
+.store-link{
+    color: grey;
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.store-link:hover{
+    color: mediumpurple;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+.store-p{
+    margin-top: 15px;
+    border: 3px solid ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    padding: 25px;
+    font-size: x-large;
+    width: 45%;
+    align-items: center;
+    p{
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+}

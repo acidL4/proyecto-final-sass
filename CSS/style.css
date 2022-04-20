@@ -163,6 +163,104 @@ footer .logo_footer {
   font-size: 1.5rem;
 }
 
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+.container p {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+.container .list_prices {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+}
+.container .barber-img {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+.container .barber-img .img_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+}
+.container .barber-img .img {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+.container .barber-img .img_section div {
+  flex: 1 1 200px;
+}
+.container .barber-img .col {
+  margin-bottom: 10px;
+  align-items: center;
+}
+.container .barber-img .row {
+  width: 100%;
+  margin: 0;
+}
+
+.carousel-item img {
+  /*Se agrega para arreglar height imgs carousel*/
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.store-link {
+  color: grey;
+  text-decoration: none;
+  color: black;
+}
+
+.store-link:hover {
+  color: mediumpurple;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.store-p {
+  margin-top: 15px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  padding: 25px;
+  font-size: x-large;
+  width: 45%;
+  align-items: center;
+}
+.store-p p {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+}
+
 /* From cssbuttons.io */
 button {
   position: relative;
