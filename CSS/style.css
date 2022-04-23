@@ -11501,6 +11501,7 @@ button:hover .button-text {
   .media-desktop {
     display: flex;
     justify-content: space-between;
+    width: 45%;
   }
 }
 /*Colors*/
