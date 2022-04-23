@@ -11365,10 +11365,6 @@ footer .logo_footer {
   font-family: "Bebas Neue", cursive;
   font-size: 1.5rem;
 }
-.container .barber-img {
-  display: flex;
-  flex-direction: column;
-}
 .container .barber-img .img_section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -11533,12 +11529,12 @@ button:hover .button-text {
     width: 100%;
   }
 
-  .media-hide {
-    display: none;
-  }
-
   .media-margin-top {
     margin-top: 3rem;
+  }
+
+  .media-hide {
+    display: none;
   }
 }
 /* @media desktop*/
@@ -11547,13 +11543,10 @@ button:hover .button-text {
     display: none;
   }
 
-  .w-45 {
-    width: 45%;
-  }
-
   .media-desktop {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 45%;
   }
 }
 /*Colors*/

@@ -9,13 +9,13 @@
         width: 100%;
 
     }
-    .media-hide{
-        display: none;
-    }
+
     .media-margin-top{
         margin-top: 3rem;
     }
-
+    .media-hide{
+        display: none;
+    }
 }
 
 @media  screen and (orientation: landscape) and (max-width: 968px)  {
@@ -30,13 +30,10 @@
         display: none;
     }
 
-    .w-45{
-        width: 45%;
-    }
-
 
     .media-desktop{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        width: 45%;
     }
 }
