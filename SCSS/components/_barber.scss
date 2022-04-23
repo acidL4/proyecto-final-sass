@@ -12,7 +12,7 @@
         
         flex-direction: column;
         justify-content: center;
-        width: 40%;
+       
         color: $paragraph-color;
         font-family: $title-font;
         font-size: $paragraph-size;
@@ -20,7 +20,7 @@
     }
     .barber-img{
         display: flex;
-        width: 40%;
+        
         flex-direction: column;
         
             
@@ -30,7 +30,7 @@
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr;
                 gap: 10px;
-                width: 100%;
+                
                 align-items: center;
                 justify-items: center;
             
@@ -61,7 +61,7 @@
             }
             
             .row{
-                width: 100%;
+                
                 margin: 0;
             }
         }

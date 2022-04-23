@@ -1,0 +1,42 @@
+
+
+
+
+@media screen and (max-width: 968px){
+    .media-centrado{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .media-hide{
+        display: none;
+    }
+    .media-margin-top{
+        margin-top: 3rem;
+    }
+
+}
+
+@media  screen and (orientation: landscape) and (max-width: 968px)  {
+
+}
+
+/* @media desktop*/
+
+@media screen and (min-width: 969px) {
+
+    .carrusel-hide {
+        display: none;
+    }
+
+    .w-45{
+        width: 45%;
+    }
+
+
+    .media-desktop{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

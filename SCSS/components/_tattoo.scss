@@ -18,5 +18,13 @@
     color: $paragraph-color;
     font-family: $paragraph-font;
     font-size: $paragraph-size;
+    .artist{
+        font-weight: bold;
+        font-family: $title-font;
+    
+    }
+    .mote{
+        font-style: italic;
+    }
 }
 

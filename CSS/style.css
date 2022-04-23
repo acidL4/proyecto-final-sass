@@ -1,369 +1,12 @@
 @charset "UTF-8";
-/*Colors*/
-/*Fonts*/
-/*IMG prueba*/
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
-.pic_profile {
-  width: 600px;
-  height: auto;
-}
-
-header {
-  background-color: #AAA0A0;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-header .link_logo {
-  display: flex;
-  justify-content: center;
-}
-header .link_logo .logo {
-  width: 40%;
-}
-header ul .list_item {
-  display: flex;
-  font-weight: 700;
-  font-size: 23px;
-  font-family: "Bebas Neue", cursive;
-}
-header ul .list_item .link {
-  text-decoration: none;
-  color: black;
-}
-header ul .list_item .boton_prueba {
-  width: 120px;
-  height: 45px;
-  font-size: 23px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: transparent;
-  color: black;
-  font-family: "Bebas Neue", cursive;
-  font-weight: 700;
-  position: relative;
-  transition: all 0.5s;
-  z-index: 1;
-}
-
-/*Colors*/
-/*Fonts*/
-/*IMG prueba*/
-.pic_profile {
-  width: 600px;
-  height: auto;
-}
-
-body {
-  background-image: url(/images/pexels-cottonbro-3826435.jpg);
-  color: #AAA0A0;
-}
-
-/*Colors*/
-/*Fonts*/
-/*IMG prueba*/
-.pic_profile {
-  width: 600px;
-  height: auto;
-}
-
-footer {
-  background-color: #AAA0A0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1030;
-}
-footer .footer_item {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  align-items: center;
-  font-family: "Bebas Neue", cursive;
-}
-footer .logo_footer {
-  width: 15%;
-}
-
-.store-prueba {
-  padding: 0;
-}
-.store-prueba .title {
-  background-color: aliceblue;
-  color: black;
-  font-family: "Bebas Neue", cursive;
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.store-prueba .paragraph {
-  color: aliceblue;
-  font-family: "Inconsolata", monospace;
-  font-size: 1.5rem;
-  text-align: justify;
-}
-
-.title-1 {
-  background-color: aliceblue;
-  color: black;
-  font-family: "Bebas Neue", cursive;
-  text-align: center;
-  font-size: 3rem;
-}
-
-/*Colors*/
-/*Fonts*/
-/*IMG prueba*/
-.pic_profile {
-  width: 600px;
-  height: auto;
-}
-
-.form-section {
-  color: aliceblue;
-  font-family: "Bebas Neue", cursive;
-  font-weight: bolder;
-}
-.form-section .div-1 {
-  width: 45%;
-}
-.form-section h2, .form-section .h2 {
-  color: black;
-  background-color: aliceblue;
-  text-align: center;
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
-}
-
-/*Colors*/
-/*Fonts*/
-/*IMG prueba*/
-.pic_profile {
-  width: 600px;
-  height: auto;
-}
-
-.h2_services {
-  color: black;
-  background-color: aliceblue;
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.content_bio {
-  color: aliceblue;
-  font-family: "Inconsolata", monospace;
-  font-size: 1.5rem;
-}
-
-/*Colors*/
-/*Fonts*/
-/*IMG prueba*/
-.pic_profile {
-  width: 600px;
-  height: auto;
-}
-
-.container p {
-  color: aliceblue;
-  font-family: "Inconsolata", monospace;
-  font-size: 1.5rem;
-}
-.container .list_prices {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 40%;
-  color: aliceblue;
-  font-family: "Bebas Neue", cursive;
-  font-size: 1.5rem;
-}
-.container .barber-img {
-  display: flex;
-  width: 40%;
-  flex-direction: column;
-}
-.container .barber-img .img_section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 10px;
-  width: 100%;
-  align-items: center;
-  justify-items: center;
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.12);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.32);
-}
-.container .barber-img .img {
-  display: flex;
-  width: 100%;
-  padding: 15px;
-}
-.container .barber-img .img_section div {
-  flex: 1 1 200px;
-}
-.container .barber-img .col {
-  margin-bottom: 10px;
-  align-items: center;
-}
-.container .barber-img .row {
-  width: 100%;
-  margin: 0;
-}
-
-.carousel-item img {
-  /*Se agrega para arreglar height imgs carousel*/
-  object-fit: cover;
-  object-position: center;
-  height: 50vh;
-  overflow: hidden;
-}
-
-.store-link {
-  color: grey;
-  text-decoration: none;
-  color: black;
-}
-
-.store-link:hover {
-  color: mediumpurple;
-  background-color: black;
-  border-radius: 5px;
-}
-
-.store-p {
-  margin-top: 15px;
-  border: 3px solid;
-  border-radius: 10px;
-  background-color: aliceblue;
-  font-family: "Bebas Neue", cursive;
-  color: black;
-  padding: 25px;
-  font-size: x-large;
-  width: 45%;
-  align-items: center;
-}
-.store-p p {
-  font-family: "Bebas Neue", cursive;
-  color: black;
-}
-
-/* From cssbuttons.io */
-button {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  background: transparent;
-  padding: 0;
-  font-size: inherit;
-  font-family: inherit;
-}
-
-button.learn-more {
-  width: 12rem;
-  height: auto;
-}
-
-button.learn-more .circle {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: relative;
-  display: block;
-  margin: 0;
-  width: 3rem;
-  height: 3rem;
-  background: #282936;
-  border-radius: 1.625rem;
-}
-
-button.learn-more .circle .icon {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
-}
-
-button.learn-more .circle .icon.arrow {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.625rem;
-  width: 1.125rem;
-  height: 0.125rem;
-  background: none;
-}
-
-button.learn-more .circle .icon.arrow::before {
-  position: absolute;
-  content: "";
-  top: -0.29rem;
-  right: 0.0625rem;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
-  transform: rotate(45deg);
-}
-
-button.learn-more .button-text {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.75rem 0;
-  margin: 0 0 0 1.85rem;
-  color: aliceblue;
-  font-weight: 700;
-  line-height: 1.6;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-button:hover .circle {
-  width: 100%;
-}
-
-button:hover .circle .icon.arrow {
-  background: #fff;
-  transform: translate(1rem, 0);
-}
-
-button:hover .button-text {
-  color: #fff;
-}
-
-/*Colors*/
-/*Fonts*/
-/*IMG prueba*/
-.pic_profile {
-  width: 600px;
-  height: auto;
-}
-
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11476,6 +11119,458 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+header {
+  background-color: #AAA0A0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header .link_logo {
+  display: flex;
+  justify-content: center;
+}
+header .link_logo .logo {
+  width: 40%;
+}
+header ul .list_item {
+  display: flex;
+  font-weight: 700;
+  font-size: 23px;
+  font-family: "Bebas Neue", cursive;
+}
+header ul .list_item .link {
+  text-decoration: none;
+  color: black;
+}
+header ul .list_item .boton_prueba {
+  width: 120px;
+  height: 45px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+body {
+  background-image: url(/images/pexels-cottonbro-3826435.jpg);
+  color: #AAA0A0;
+}
+
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+footer {
+  background-color: #AAA0A0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+footer .footer_item {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+}
+footer .logo_footer {
+  width: 15%;
+}
+
+.store-prueba {
+  padding: 0;
+}
+.store-prueba .title {
+  background-color: aliceblue;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.store-prueba .paragraph {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.title-1 {
+  background-color: aliceblue;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 3rem;
+}
+
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.form-section {
+  color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bolder;
+}
+.form-section .div-1 {
+  width: 45%;
+}
+.form-section h2, .form-section .h2 {
+  color: black;
+  background-color: aliceblue;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.h2_services {
+  color: black;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.content_bio {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+.content_bio .artist {
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+}
+.content_bio .mote {
+  font-style: italic;
+}
+
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.container p {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+.container .list_prices {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+}
+.container .barber-img {
+  display: flex;
+  flex-direction: column;
+}
+.container .barber-img .img_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+}
+.container .barber-img .img {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+.container .barber-img .img_section div {
+  flex: 1 1 200px;
+}
+.container .barber-img .col {
+  margin-bottom: 10px;
+  align-items: center;
+}
+.container .barber-img .row {
+  margin: 0;
+}
+
+.carousel-item img {
+  /*Se agrega para arreglar height imgs carousel*/
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.store-link {
+  color: grey;
+  text-decoration: none;
+  color: black;
+}
+
+.store-link:hover {
+  color: mediumpurple;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.store-p {
+  margin-top: 15px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  padding: 25px;
+  font-size: x-large;
+  width: 45%;
+  align-items: center;
+}
+.store-p p {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+}
+
+/* From cssbuttons.io */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: aliceblue;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+@media screen and (max-width: 968px) {
+  .media-centrado {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .media-hide {
+    display: none;
+  }
+
+  .media-margin-top {
+    margin-top: 3rem;
+  }
+}
+/* @media desktop*/
+@media screen and (min-width: 969px) {
+  .carrusel-hide {
+    display: none;
+  }
+
+  .w-45 {
+    width: 45%;
+  }
+
+  .media-desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/*Colors*/
+/*Fonts*/
+/*IMG prueba*/
+.pic_profile {
+  width: 600px;
+  height: auto;
+}
+
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
