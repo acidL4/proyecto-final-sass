@@ -1,22 +1,20 @@
 @import '../base/variables';
+@import '../base/extend';
 
 .container{
 
     p{
-        color: $paragraph-color;
-        font-family: $paragraph-font;
-        font-size: $paragraph-size;
+        @extend %paragraphs
     }
     .list_prices{
         display: flex;
-        align-content: center;    
-        
+        align-content: center;        
         flex-direction: column;
         justify-content: center;
-       
-        color: $paragraph-color;
-        font-family: $title-font;
-        font-size: $paragraph-size;
+        font-weight: bold;
+        @extend %paragraphs;
+
+        
         
     }
     .barber-img{

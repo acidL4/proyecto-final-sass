@@ -11257,17 +11257,26 @@ footer .logo_footer {
   width: 90%;
 }
 
+.container .list_prices, .container p, .content_bio {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+
+.form-section h2, .form-section .h2 {
+  color: black;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
 .form-section {
   color: aliceblue;
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
 }
 .form-section h2, .form-section .h2 {
-  color: black;
-  background-color: aliceblue;
   text-align: center;
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
 }
 
 /*Colors*/
@@ -11282,6 +11291,19 @@ footer .logo_footer {
   width: 90%;
 }
 
+.container .list_prices, .container p, .content_bio {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+
+.form-section h2, .form-section .h2 {
+  color: black;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
 .h2_services {
   color: black;
   background-color: aliceblue;
@@ -11290,11 +11312,6 @@ footer .logo_footer {
   text-align: center;
 }
 
-.content_bio {
-  color: aliceblue;
-  font-family: "Inconsolata", monospace;
-  font-size: 1.5rem;
-}
 .content_bio .artist {
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
@@ -11315,19 +11332,25 @@ footer .logo_footer {
   width: 90%;
 }
 
-.container p {
+.container .list_prices, .container p, .content_bio {
   color: aliceblue;
   font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
 }
+
+.form-section h2, .form-section .h2 {
+  color: black;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
 .container .list_prices {
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: center;
-  color: aliceblue;
-  font-family: "Bebas Neue", cursive;
-  font-size: 1.5rem;
+  font-weight: bold;
 }
 .container .barber-img .img {
   display: flex;
@@ -11514,6 +11537,19 @@ button:hover .button-text {
 
 .width-90 {
   width: 90%;
+}
+
+.content_bio, .container p, .container .list_prices {
+  color: aliceblue;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+
+.form-section h2, .form-section .h2 {
+  color: black;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
