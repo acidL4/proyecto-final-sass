@@ -1,0 +1,17 @@
+@mixin texts($color, $fontfamily, $fontsize, $weight) {
+    color: $color;
+    font-family: $fontfamily;
+    font-size: $fontsize;
+    font-weight: $weight;
+
+
+}
+
+
+/*
+Necesito:
+color
+font-family
+font-size
+font-weight
+*/

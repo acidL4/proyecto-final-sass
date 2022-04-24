@@ -1,4 +1,4 @@
-
+@import '../base/mixins';
 .store-prueba{
     
 
@@ -11,9 +11,7 @@
         margin-bottom: 1rem;
     }
     .paragraph{
-        color: $paragraph-color;
-        font-family: $paragraph-font;
-        font-size: $paragraph-size;
+        @include texts(aliceblue, 'Bebas Neue', 1.5rem, normal);
         text-align: justify;    
          
     }
@@ -26,6 +24,7 @@
         font-family: $title-font;
         text-align: center;
         font-size: $title-size;
+  
         
         
   

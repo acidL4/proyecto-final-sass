@@ -1,4 +1,4 @@
-
+@import '../base/mixins';
 
 .carousel-item img { /*Se agrega para arreglar height imgs carousel*/
     object-fit: cover;
@@ -24,14 +24,12 @@
 }
 
 .store-p{
+  
     margin-top: 15px;
-    border: 3px solid ;
+    border: 3px solid black;
     border-radius: 10px;
-    background-color: aliceblue;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
+    background-color: $title-bg;    
     padding: 25px;
-    font-size: x-large;
     width: 45%;
     align-items: center;
     p{

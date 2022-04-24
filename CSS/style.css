@@ -11122,7 +11122,6 @@ textarea.form-control-lg {
 }
 /*Colors*/
 /*Fonts*/
-/*IMG prueba*/
 /*Width*/
 .w-45 {
   width: 45%;
@@ -11173,7 +11172,6 @@ header ul .list_item .boton_prueba {
 
 /*Colors*/
 /*Fonts*/
-/*IMG prueba*/
 /*Width*/
 .w-45 {
   width: 45%;
@@ -11190,7 +11188,6 @@ body {
 
 /*Colors*/
 /*Fonts*/
-/*IMG prueba*/
 /*Width*/
 .w-45 {
   width: 45%;
@@ -11222,6 +11219,13 @@ footer .logo_footer {
   width: 15%;
 }
 
+/*
+Necesito:
+color
+font-family
+font-size
+font-weight
+*/
 .store-prueba .title {
   background-color: aliceblue;
   color: black;
@@ -11232,8 +11236,9 @@ footer .logo_footer {
 }
 .store-prueba .paragraph {
   color: aliceblue;
-  font-family: "Inconsolata", monospace;
+  font-family: "Bebas Neue";
   font-size: 1.5rem;
+  font-weight: normal;
   text-align: justify;
 }
 
@@ -11247,7 +11252,6 @@ footer .logo_footer {
 
 /*Colors*/
 /*Fonts*/
-/*IMG prueba*/
 /*Width*/
 .w-45 {
   width: 45%;
@@ -11257,7 +11261,7 @@ footer .logo_footer {
   width: 90%;
 }
 
-.container .list_prices, .container p, .content_bio {
+.list_prices, p, .content_bio {
   color: aliceblue;
   font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
@@ -11281,7 +11285,6 @@ footer .logo_footer {
 
 /*Colors*/
 /*Fonts*/
-/*IMG prueba*/
 /*Width*/
 .w-45 {
   width: 45%;
@@ -11291,7 +11294,7 @@ footer .logo_footer {
   width: 90%;
 }
 
-.container .list_prices, .container p, .content_bio {
+.list_prices, p, .content_bio {
   color: aliceblue;
   font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
@@ -11322,7 +11325,6 @@ footer .logo_footer {
 
 /*Colors*/
 /*Fonts*/
-/*IMG prueba*/
 /*Width*/
 .w-45 {
   width: 45%;
@@ -11332,7 +11334,7 @@ footer .logo_footer {
   width: 90%;
 }
 
-.container .list_prices, .container p, .content_bio {
+.list_prices, p, .content_bio {
   color: aliceblue;
   font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
@@ -11345,19 +11347,20 @@ footer .logo_footer {
   font-size: 3rem;
 }
 
-.container .list_prices {
+.list_prices {
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: center;
   font-weight: bold;
 }
-.container .barber-img .img {
+
+.barber-img .img {
   display: flex;
   width: 100%;
   padding: 15px;
 }
-.container .barber-img .img_section div {
+.barber-img .img_section div {
   flex: 1 1 200px;
 }
 
@@ -11374,6 +11377,13 @@ footer .logo_footer {
   -webkit-backdrop-filter: blur(5px);
 }
 
+/*
+Necesito:
+color
+font-family
+font-size
+font-weight
+*/
 .carousel-item img {
   /*Se agrega para arreglar height imgs carousel*/
   object-fit: cover;
@@ -11396,13 +11406,10 @@ footer .logo_footer {
 
 .store-p {
   margin-top: 15px;
-  border: 3px solid;
+  border: 3px solid black;
   border-radius: 10px;
   background-color: aliceblue;
-  font-family: "Bebas Neue", cursive;
-  color: black;
   padding: 25px;
-  font-size: x-large;
   width: 45%;
   align-items: center;
 }
@@ -11529,7 +11536,6 @@ button:hover .button-text {
 }
 /*Colors*/
 /*Fonts*/
-/*IMG prueba*/
 /*Width*/
 .w-45 {
   width: 45%;
@@ -11539,7 +11545,7 @@ button:hover .button-text {
   width: 90%;
 }
 
-.content_bio, .container p, .container .list_prices {
+.content_bio, p, .list_prices {
   color: aliceblue;
   font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
@@ -11551,5 +11557,13 @@ button:hover .button-text {
   font-family: "Bebas Neue", cursive;
   font-size: 3rem;
 }
+
+/*
+Necesito:
+color
+font-family
+font-size
+font-weight
+*/
 
 /*# sourceMappingURL=style.css.map */

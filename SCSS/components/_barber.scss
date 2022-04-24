@@ -1,7 +1,6 @@
 @import '../base/variables';
 @import '../base/extend';
 
-.container{
 
     p{
         @extend %paragraphs
@@ -35,7 +34,7 @@
 
 
         }
-    }
+    
 
 .col{
     padding: 24px;
